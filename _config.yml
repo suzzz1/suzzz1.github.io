@@ -1,0 +1,62 @@
+# Basic
+title: Sage_su
+subtitle: 个人站
+description: 你知道是我的~
+# 头像里面的标题
+avatarTitle: By su
+# 头像里面的描述
+avatarDesc: 网络攻城师 / Linux /Python
+url: "http://gouyouni.cn"
+
+
+# Social
+social:
+    weibo: 303442892 
+    github: suzzz1
+    # twitter: 
+    mail: suzzz1@163.com
+
+   
+# 百度统计 
+# 使用博客模板请去掉或者更换 id 
+baidu:
+    id:47f0d214852b456ff9ff542d15b67c73 
+
+# Google Analytics
+# 使用博客模板请去掉或者更换 id
+#ga:
+#    id: UA-84134159-3   
+#    host: auto  
+
+
+# 《----------------- 上面的信息修改成你自己的 ---------------------------》
+#
+#
+#
+# 《--------------- 下面的信息可以自行选择是否修改 ------------------------》
+
+
+permalink: /:year/:month/:title/
+# Format
+highlighter: rouge
+
+# supported colors: blue, green, purple, red, orange or slate. If you need clear, leave it empty.
+cover_color: clear
+
+# The blog button should not be removed.
+blog_button:
+    title: 博客主页
+
+# Navigation buttons in the front page.s
+nav:
+    - {title: 所有文章, description: archive, url: '/archive'}   
+    - {title: 标签, description: tags, url: '/tags'}      
+    - {title: 关于我, description: about, url: '/about'}      
+    
+
+# Pagination
+gems: [jekyll-paginate,jekyll-sitemap]
+paginate: 20
+paginate_path: "page/:num/"
+
+
